@@ -10,23 +10,25 @@ import java.util.logging.Logger;
 public class PostConstructTutorials {
 
 
-    @Autowired
+
+/*    @Autowired
     Logger LOG;
 
     //because "this.LOG" is null ERROR
     // No Args Constructor
-//    public PostConstructTutorials() {
-//        LOG.info("Log info called");
-//    }
+    public PostConstructTutorials() {
+        LOG.info("Log info called");
+    }
 
     @PostConstruct
     public void init() {
         LOG.info("log info called");
     }
 
+
     public static void main(String[] args) {
         PostConstructTutorials beanController = new PostConstructTutorials();
         System.out.println(beanController);
-    }
+    }*/
 
 }
