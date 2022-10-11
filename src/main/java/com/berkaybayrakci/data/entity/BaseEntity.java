@@ -1,4 +1,4 @@
-package com.berkaybayrakci.entity;
+package com.berkaybayrakci.data.entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.berkaybayrakci.dto;
+package com.berkaybayrakci.business.dto;
 
 //DTO: Data Transfer Object
 

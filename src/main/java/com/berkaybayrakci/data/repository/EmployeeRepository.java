@@ -1,4 +1,4 @@
-package com.berkaybayrakci.repository;
+package com.berkaybayrakci.data.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;
