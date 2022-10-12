@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 // For JPA and Hibernate Root operation
 // JpaRepository > CrudRepository
-// C:create r:read u:update d:delete Crud
+// Cr:create u:update d:delete Crud
 
 @Repository
 public interface EmployeeRepository extends CrudRepository {
