@@ -1,5 +1,6 @@
 package com.berkaybayrakci.data.entity;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
@@ -26,6 +27,7 @@ public class BaseEntity {
     @Column(name = "created_by")
     @CreatedBy
     private String createdBy;
+
     @Column(name = "created_date")
     @CreatedDate
     private Date createdDate;
@@ -33,6 +35,7 @@ public class BaseEntity {
     @Column(name = "update_by")
     @LastModifiedBy
     private String updateBy;
+
     @Column(name = "update_date")
     @LastModifiedDate
     private Date updateDate;
