@@ -53,7 +53,7 @@ public class EmployeeServiceImpl implements EmployeeServices {
                 employeeRepository
                         .findById(id)
                         .orElseThrow(
-                                ()->new ResourceNotFoundException("Employee "+id+" numaralı product id bulunamadı !!!!")
+                                ()->new ResourceNotFoundException("Employee not exist with id :" +id)
                         );
 
         EmployeeDto employeeDto = EntityToDto(employee);//model
